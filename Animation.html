@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation basic
+    </title>
+    <style type="text/css">
+        .btn {
+            display: block;
+
+            margin: 0;
+        }
+
+        button {
+            display: block;
+            margin: 200px auto;
+            padding: 12px 24px;
+            background-color: brown;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: width 2s linear 1s;
+        }
+button:hover{
+    /* animation-name: btn-hover;
+            animation-duration: 5s; */
+           
+            padding: 12px 36px;
+}
+        /* @keyframes btn-hover {
+            from {
+                padding: 12px 24px;          }
+
+            to {
+                padding: 24px 36px;
+            }
+        } */
+
+/* ----------------- */
+.box{
+    background-color: chocolate;
+    border: 2 px solid black ;
+    display: block;
+    height: 200px;
+    width:200px;
+    margin:  auto;
+    transition: width 2s linear 1s;
+}
+.box:hover{
+    width: 500px;
+}
+
+    </style>
+</head>
+
+
+    <button>Home</button>
+   
+
+<div class="box"></div>
+<body>
+
+</body>
+
+</html>
